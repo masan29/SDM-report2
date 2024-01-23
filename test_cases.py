@@ -34,3 +34,6 @@ class TestCalc (unittest.TestCase):
         def test_invalid_case3(self):
                 self.assertEqual(-1, calc(5, 10000))
 
+        def test_invalid_case4(self):
+                self.assertEqual(-1, calc(5.3, 10))
+
